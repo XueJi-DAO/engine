@@ -6,6 +6,8 @@
 *.lo
 *.o
 *.obj
+*.ilk
+*.pdb
 
 # Precompiled Headers
 *.gch
@@ -26,7 +28,55 @@
 *.a
 *.lib
 
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestFile.cmake
+
+# Visual Studio build files
+.vs
+*.sdf
+*.opensdf
+*.VC.opendb
+*.suo
+*.user
+_ReSharper.Caches/
+Win32-Debug/
+Win32-Release/
+x64-Debug/
+x64-Release/
+**/x64/Debug/
+**/x64/Release/
+
 # Executables
 *.exe
 *.out
 *.app
+
+# tmp folder of install-deps
+utility/install-deps/tmp/
+
+# idea
+.idea
+cmake-build-debug/
+
+# custom build
+build/
+
+# Mac
+**/.DS_Store
+
+# tests
+test_db.sqlite
+
+# Docker
+
+# Dockerfile
+
+# own config
+a.out
+*.swp
+*.pb.*
+example_*_cpp*
+temp/
